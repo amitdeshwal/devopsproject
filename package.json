@@ -4,7 +4,7 @@
   "description": "this is to test cicd",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -20,9 +20,7 @@
   },
   "homepage": "https://github.com/amitdeshwal/devopsproject#readme",
   "dependencies": {
-    "express": "^4.16.4"
-  },
-  "devDependencies": {
+    "express": "^4.16.4",
     "mocha": "^5.2.0",
     "should": "^13.2.3",
     "supertest": "^3.3.0"
